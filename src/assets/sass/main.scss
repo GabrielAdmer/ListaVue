@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+$color-white: #ffffff;
+$color-celeste: #3accfd;
+$color-azul: #139bff;
+$color-verder: #82c230;
+$color-verse2: #48c9aa;
+$color-amarillo: #f9c802;
+$color-anaranjado: #fd8d13;
+$color-rosado: #ef3e86;
+$color-morado: #a02da6;
+$color-rojo: #dd1f1f;
+
+$fuente1: 'Alegreya', serif;
+$fuente2: 'Asap', serif;
+
+@media screen and (min-width: 700px) {
+  body {
+    // background-color: black;
+  }
+  .hello {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-gap: 0px 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'parte1 parte2';
+  }
+  .parte2 {
+    margin-top: 100px;
+  }
+}
